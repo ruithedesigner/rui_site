@@ -1,0 +1,23 @@
+		<button class="hamburger hamburger--collapse" type="button">
+  		<span class="hamburger-box">
+    		<span class="hamburger-inner"></span>
+  		</span>
+		</button>
+
+		<div class="menu__wrap">
+			<span class="circle"></span>
+
+			<svg class="menu-circle"><use xlink:href="#menu-circle"></use></svg>
+			<!-- <svg class="icon icon-logo__dark"><use xlink:href="#logo-light"></use></svg> -->
+			<svg class="icon-leaf"><use xlink:href="#leaf"></use></svg>
+			<svg class="icon-leaf-3"><use xlink:href="#leaf-3"></use></svg>
+
+	    <div id="menu" class="menu">
+	    	<nav>
+		  		<%= current_link_to "Home", "/" %>
+				  <%= current_link_to "About Rui", "/about" %>
+				  <%= current_link_to "Portfolio", "/portfolio" %>
+				  <%= current_link_to "Contact Info", "/contact" %>
+			  </nav>
+			</div>
+		</div>
